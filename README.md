@@ -60,11 +60,11 @@ The app uses the [Quran.com API v4](https://api.quran.com/api/v4) to retrieve Qu
 
 ```plaintext
 lib/
-├── main.dart # App entry point. Displays list of Surahs
+├── main.dart                   # App entry point. Displays list of Surahs
 ├── screens/
-│   └── verse_list_page.dart # Displays Ayahs of a selected Surah
+│   └── verse_list_page.dart    # Displays Ayahs of a selected Surah
 └── services/
-    └── quran_api_service.dart # Handles HTTP requests to Quran API
+    └── quran_api_service.dart  # Handles HTTP requests to Quran API
 ```
 
 ## 📦 Dependencies
